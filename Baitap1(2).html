@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       /*  let deg=+prompt ("Nhập nhiệt độ");
+        if (deg>100) {
+            console.log("Mời giảm nhiệt độ");
+        }
+        if (deg<20) {
+            console.log("Mời tăng nhiệt độ");
+        } */
+        let i=0;
+        do {
+            let deg=+prompt ("Nhiệt độ");
+            if (deg<20) {
+                alert ("Nhiệt độ quá thấp, vui lòng tăng nhiệt");
+            }else
+            if (deg>100) {
+                alert ("Nhiệt độ quá cao, vui lòng giảm nhiệt");
+            }else
+            if (deg>20 && deg<100) {
+                alert ("Ok rồi đấy");
+                break;
+            }
+            i++
+            
+        } while (i<100);
+    </script>
+</body>
+</html>
